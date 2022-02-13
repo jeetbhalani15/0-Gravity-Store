@@ -309,3 +309,25 @@ products area css
 .bold{
     font-weight: 600;
 }
+footer{
+    /* background-color: #ff9a77; */
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 4rem;
+    
+}
+.gap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 4rem;
+}
+.footer-txt{
+    color: azure;
+    margin: 1rem;
+}
+
