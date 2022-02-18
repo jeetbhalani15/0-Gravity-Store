@@ -181,6 +181,15 @@ cart CSS
 .btn-solid {
     background-color: none
 }
+.badge {
+    position: absolute;
+    width: 14rem;
+    height: 1rem;
+    background-color: var(--card-badge);
+    top: 83.3%;
+    text-align: center;
+    color: var(--card-text);
+}
 
 .btn {
     margin-left: -4rem;
