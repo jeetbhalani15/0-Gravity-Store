@@ -207,6 +207,7 @@ cards css
     max-width: 22%;
 }
 .card-btn{
+    margin-top: 1rem;
     padding: 8px 30px;
     background: tan;
     border-radius: 8px;
