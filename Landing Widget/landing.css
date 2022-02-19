@@ -155,7 +155,7 @@ landing logo
     font-size: 3rem;
     position: absolute;
     top: 30%;
-    right: 22%;
+    right: 23%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,15 +178,23 @@ landing logo
     padding: 0rem;
 }
 .genre-items{
-    border: 4px solid rgb(63, 63, 63);
     padding: 2rem;
     width: 24rem;
+    border-radius: 8px;
+}
+.partner-items{
+    padding: 5rem;
+    width: 20rem;
     border-radius: 8px;
 }
 .genre-logo{
    width: 20rem;
 }
+.partner-logo{
+   width: 10rem;
+}
 .hero-catergory{
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,4 +206,65 @@ landing logo
     justify-content: center;
     align-items: center;
     gap: 5rem;
+}
+/* 
+cards for landing page
+*/
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-border{
+    border-radius: 14px;
+    padding: 2rem;
+    margin-left: 1rem;
+    max-width: 24%;
+}
+.card-btn{
+    margin-top: 1rem;
+    padding: 8px 30px;
+    background: tan;
+    border-radius: 8px;
+}
+.card-img{
+    position: relative;
+    width: 19rem;
+    height: 22.5rem;
+    border-radius: 8px;
+}
+.cart-heading{
+    opacity: 99%;
+    font-size: xx-large;
+}
+.my-cart{
+    margin-top: -9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+}
+.cart-content{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 5rem;   
+    font-size: large; 
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
 }
