@@ -168,11 +168,19 @@ img{
   }
   
   .form__field {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 14px;
     margin: 0.875rem;
+  }
+  #toggle{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    top: 0.%;
+    top: 40%;
   }
   
   .form__input {
@@ -221,7 +229,7 @@ img{
   }
   
   .login input[type='submit'] {
-    background-color: #ea4c88;
+    background-color: #D37404;;
     color: #eee;
     font-weight: 700;
     text-transform: uppercase;
@@ -229,7 +237,7 @@ img{
   
   .login input[type='submit']:focus,
   .login input[type='submit']:hover {
-    background-color: #d44179;
+    background-color: #f1870e;
   }
   
   /* modules/text.css */
