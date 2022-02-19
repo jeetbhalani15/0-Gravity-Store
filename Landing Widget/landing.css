@@ -178,9 +178,9 @@ landing logo
     padding: 0rem;
 }
 .genre-items{
+    border: 4px solid rgb(63, 63, 63);
     padding: 2rem;
     width: 24rem;
-    background-color: #383838;
     border-radius: 8px;
 }
 .genre-logo{
@@ -193,6 +193,7 @@ landing logo
     align-items: center;
 }
 .genre{
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
