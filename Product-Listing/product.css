@@ -128,6 +128,20 @@ fliter css
 .main-content{
     margin-top: 3rem;
 }
+.slider-box{
+    background-color: none;
+}
+.slider-amount{
+    display: flex;
+    margin-left: 2rem;
+    margin-right: -1rem;
+    justify-content: space-between;
+}
+.slider{
+    width: 18rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
 .sidebar-list{
     display: flex;
     flex-direction: column;

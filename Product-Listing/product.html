@@ -11,6 +11,7 @@
     />
      <!-- <link rel="stylesheet" href="https://zero-gravity-ui.netlify.app/CSS/gobal.css"> -->
      <link rel="stylesheet" href="https://zero-gravity-ui.netlify.app/components/cards/card.css">
+     <link rel="stylesheet" href="https://zero-gravity-ui.netlify.app/components/slider/slider.css">
     <link rel="stylesheet" href="product.css">
 </head>
 <body>
@@ -86,28 +87,16 @@
             <div class="items">
                  <h4>PRICE</h4>
                 </div>
-             <div>
-                  <ul class="sidebar-list">
-                    <div id="header">
-                     <li><a href="/main.html">
-                       <span>Free</span></a></li>
-                    </div>
-                    <div id="header">
-                     <li><a href="/main.html">
-                       <span>Under ₹750.00</span></a></li>
-                    </div>
-                    <div id="header">
-                     <li><a href="/main.html">
-                       <span>Under ₹1500.00</span></a></li>
-                    </div>
-                    <div id="header">
-                     <li><a href="/typography.html">
-                       <span>Under ₹2200.00</span></a></li>
-                    </div>
-                     
-                    <hr>
-                </ul>
-            </div>
+                <div class="box-slider slider-border">
+                  <div class="slider-amount">
+                    <span>₹350</span>
+                    <span>₹2250</span>
+                    <span>₹5000</span>
+                  </div>
+                  <div class="slider">
+                  <input class="slider" type="range" min="0" max="5000" value="2500">
+              </div>
+              </div>
             
              <div class="items">
                 <h4>SORT</h4>
@@ -125,6 +114,29 @@
             
                    <hr>
                 </ul>
+              </div>
+             <div class="items">
+                <h4>RATINGS</h4>
+             </div>
+             <div>
+                <ul class="sidebar-list" >
+                  <div id="header">
+                    <li><a href="/alert-main.html"><input type="radio">
+                      <span>4⭐  & above</span></a></li>
+                   </div>
+                   <div id="header">
+                    <li><a href="/main-avatar.html"><input type="radio">
+                      <span>3⭐  & above</span></a></li>
+                   </div>
+                   <div id="header">
+                    <li><a href="/main-avatar.html"><input type="radio">
+                      <span>2⭐  & above</span></a></li>
+                   </div>
+                   
+            
+                   <hr>
+                </ul>
+              </div>
              <div class="items">
                 <h4>GENRE</h4>
              </div>
@@ -161,7 +173,7 @@
                    <hr>
                 </ul>
                </div>
-            </div>
+          
            
           </div>
           </div>
