@@ -207,7 +207,7 @@ a{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 9rem;
+    gap: 2rem;
     margin-left: 4rem;
 }
 /* 
@@ -223,8 +223,9 @@ cards css
 .card-btn{
     margin-top: 1rem;
     padding: 8px 30px;
-    background: tan;
+    background: #dd7810;
     border-radius: 8px;
+    color: azure;
 }
 .card-img{
     position: relative;
