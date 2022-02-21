@@ -225,7 +225,8 @@ main{
 .card-btn{
     margin-top: 1rem;
     padding: 8px 30px;
-    background: tan;
+    background-color: #d7850a;
+    color: azure;
     border-radius: 8px;
 }
 .card-img{
