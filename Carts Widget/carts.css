@@ -135,6 +135,7 @@ cart CSS
 }
 .font-size{
     font-size: 3rem;
+    color: var(--text-color);
 }
 .horizontal-card {
     width: 100%;
@@ -243,7 +244,7 @@ Cart-summary CSS
     color: var(--text-color);
 }
 .tax-color{
-    color: var(card-small-txt-color);
+    color: var(--card-small-txt-color);
 }
 
 /* 
