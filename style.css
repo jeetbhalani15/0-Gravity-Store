@@ -1,9 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: azure;
-}
+@import "/defalut.css";
 .logo-img{
     width: 85%;
 }
@@ -22,7 +17,7 @@ li{
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,7 +33,7 @@ li{
     margin-right: -2rem;
 }
 .bg-color{
-    color: white;
+    color: var(--text-color);
     font-size: 1.4rem;
     font-family: monospace;
     font-weight: 600;
@@ -63,7 +58,7 @@ button.link-no-style {
 
 .search-bar-btn {
     padding: 0.625rem 1rem;
-    background-color: aliceblue;
+    background-color: var(--search-bar-color);
 }
 
 .link-no-style {
@@ -75,20 +70,20 @@ button.link-no-style {
     display: flex;
     font-size: 13px;
     flex-flow: row-reverse;
-    color: antiquewhite;
+    color: var(--primary-hover);
 }
 .search-bar{
     display: flex;
     margin-left: 20rem;
 }
 .activeSearchBar {
-    background-color: #fff;
+    background-color: var(--search-bar-color);
     border: 1px solid #c7c7c9;
 }
 .search-bar-input {
     width: 38rem;
     border: none;
-    background-color: aliceblue;
+    background-color: var(--search-bar-color);
     padding: 0.625rem 1rem;
     outline: 0px;
 }
@@ -106,7 +101,7 @@ button.link-no-style {
     justify-content: center;
     align-items: center;
     margin-right: 3rem;
-    color: azure;
+    color: var(--text-color);
     font-size: 1.4rem;
 }
 .links ul{
@@ -116,7 +111,7 @@ button.link-no-style {
     
 }
 .links a{
-    color: white;
+    color: var(--text-color);
     margin-left: 4.5rem;
     display: inline-block;
     font-size: 1.4rem;
@@ -225,8 +220,8 @@ main{
 .card-btn{
     margin-top: 1rem;
     padding: 8px 30px;
-    background-color: #d7850a;
-    color: azure;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     border-radius: 8px;
 }
 .card-img{
@@ -238,8 +233,9 @@ main{
 .cart-heading{
     opacity: 99%;
     font-size: xx-large;
-    border-bottom: 4px solid #a94f04;
+    border-bottom: 4px solid var(--underline-color);
     padding: 1rem;
+    color: var(--text-color);
 }
 .my-cart{
     margin-top: -9rem;
@@ -265,9 +261,111 @@ main{
     height: 5rem;   
     font-size: large; 
 }
+.footer-txt{
+    color: var(--text-color);
+}
 footer{
-    background-color: black;
+    background-color: var(--background-color);
     display: flex;
     justify-content: center;
     padding: 2rem;
 }
+/* 
+@ media screem
+*/
+@media screen and (max-width: 870px) {
+     main{
+         width: 60%;
+     }
+    .search-bar {
+        display: none;
+    }
+    .nav-action-btn {
+        margin-left: 12rem;
+    }
+    .hero-img {
+        margin-top: -10rem;
+        height: 64rem;
+        opacity: 0.8;
+        margin-left: 6rem;
+    }
+    .hero-title {
+        right: 7%;
+    }
+    .cart-content {
+        flex-direction: column;
+    }
+    .genre-items {
+        padding: 2rem;
+        width: 22rem;
+        border-radius: 8px;
+    }
+    .partner-items {
+        padding: 4rem;
+        width: 11rem;
+        border-radius: 8px;
+    }
+    .my-cart {
+    margin-left: 30rem;
+    }
+
+}
+@media screen and (max-width: 670px) {
+     main{
+         width: 50%;
+     }
+    .genre-logo {
+        width: 12rem;
+    }
+    .genre-items {
+        padding: 2rem;
+        width: 15rem;
+        border-radius: 8px;
+    }
+    .partner-logo {
+        width: 6rem;
+    }
+    .partner-items {
+        padding: 2rem;
+        width: 1rem;
+        border-radius: 8px;
+    }
+    .hero-title {
+        font-size: 2rem;
+        right: 7%;
+    }
+    .search-bar {
+        display: none;
+    }
+    .nav-action-btn {
+        margin-left: 12rem;
+    }
+    .hero-img {
+        margin-top: -10rem;
+        height: 64rem;
+        opacity: 0.8;
+        margin-left: 6rem;
+    }
+
+}
+@media screen and (max-width: 470px) {
+    
+    main{
+        width: 24%;
+    }
+    .search-bar {
+        display: none;
+    }
+    .partner-logo {
+        width: 4rem;
+    }
+    .genre-items {
+        padding: 2rem;
+        width: 10rem;
+        border-radius: 8px;
+    }
+
+}
+
+
+  
