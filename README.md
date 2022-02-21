@@ -23,7 +23,7 @@
 <br /> 
 
 <p align= "center"> 
-  <a href="zero-gravity-store.netlify.app/index.html" target="blank">Go To Website</a> 
+  <a href="https://zero-gravity-store.netlify.app/" target="blank">Go To Website</a> 
   |
   <a href="https://github.com/jeetbhalani15/E-Commerce-Store/issues" target="blank">Report Bugs</a> 
   |
@@ -83,7 +83,7 @@
 
 <a name="about-me"/>
 
-## Hi, I'm Jay! 👋
+## Hi, I'm Jeet! 👋
 ### About Me
 * Hey learners, I'm Jeet Bhalani, [Neog Camp](https://neog.camp/) '2022 student.
 ### Social 
