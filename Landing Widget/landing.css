@@ -237,6 +237,8 @@ main{
 .cart-heading{
     opacity: 99%;
     font-size: xx-large;
+    border-bottom: 4px solid #a94f04;
+    padding: 1rem;
 }
 .my-cart{
     margin-top: -9rem;

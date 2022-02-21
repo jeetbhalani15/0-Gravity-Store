@@ -232,3 +232,20 @@ cards css
     height: 22.5rem;
     border-radius: 8px;
 }
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 5rem;   
+    font-size: large; 
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.footer-txt{
+    color: azure;
+}
