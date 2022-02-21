@@ -1,21 +1,18 @@
-/* config.css */
-
-/* helpers/align.css */
 
 .align {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 img{
     width: 65%;
@@ -56,7 +53,7 @@ img{
     align-items: center;
 }
   
-  /* helpers/grid.css */
+  /* grid.css */
   
   .grid {
     margin-left: auto;
@@ -66,7 +63,7 @@ img{
     width: 90%;
   }
   
-  /* helpers/hidden.css */
+  /* hidden.css */
   
   .hidden {
     border: 0;
@@ -79,7 +76,7 @@ img{
     width: 1px;
   }
   
-  /* helpers/icon.css */
+  /* icon.css */
   
   .icons {
     display: none;
@@ -95,7 +92,7 @@ img{
     width: 1em;
   }
   
-  /* layout/base.css */
+  /* base.css */
   
   * {
     -webkit-box-sizing: inherit;
@@ -124,7 +121,7 @@ img{
     min-height: 100vh;
   }
   
-  /* modules/anchor.css */
+  /* anchor.css */
   
   a {
     color: #eee;
@@ -137,7 +134,7 @@ img{
     text-decoration: underline;
   }
   
-  /* modules/form.css */
+  /* form.css */
   
   input {
     background-image: none;
@@ -168,20 +165,27 @@ img{
   }
   
   .form__field {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 14px;
     margin: 0.875rem;
   }
-  
+  #toggle{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    top: 0.%;
+    top: 40%;
+  }
   .form__input {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
   }
   
-  /* modules/login.css */
+  /* login.css */
   
   .login {
     color: #eee;
@@ -221,7 +225,7 @@ img{
   }
   
   .login input[type='submit'] {
-    background-color: #ea4c88;
+    background-color: #D37404;
     color: #eee;
     font-weight: 700;
     text-transform: uppercase;
@@ -229,10 +233,10 @@ img{
   
   .login input[type='submit']:focus,
   .login input[type='submit']:hover {
-    background-color: #d44179;
+    background-color: #f1870e;
   }
   
-  /* modules/text.css */
+  /* text.css */
   
   p {
     margin-bottom: 24px;
