@@ -18,7 +18,7 @@
   </a>
 </p>
 <br />
-<h3 align="center"> A 0`Gravity Store to buy PC games & gaming consoles.Buy All kinds of PC and X-box Games.</h3>
+<h3 align="center"> A 0`Gravity Store to buy our favorite PC games & gaming consoles. Buy All kinds of PC and X-box Games at one place.</h3>
 
 <br /> 
 
@@ -34,6 +34,7 @@
 ## Table of contents
 * [💻 Tech Stack](#tech-stack)
 * [▶️ Demo](#demo)
+* [▶️ Widgets](#demo)
 * [🎖 Key Features](#key-features)
 * [🔮 Future Features](#future-features)
 * [✍️ My learnings](#my-learning)
@@ -54,6 +55,14 @@
 
 <a name="key-features"/>
 
+## Widgets
+1. Landing Page Widget.
+2. Product Listing Page.
+3. Cart Management Widget.
+4. Wishlist Page Widget.
+5. Authentication Widget.
+6. Log Out Page (it's on Navigation Bar of the Wishlist Page).
+
 ## 🎖 Key Features
 1. Filter products by prize, ratings and brands.
 2. Shows latest products first.
@@ -64,12 +73,13 @@
 
 <a name="future-features"/>
 
-## 🔮 Future Features
+## 🔮 Future Updates
 1. forgot password feature
 2. Add profile page
 3. Apply coupons
 4. Order Summury
 5. Share your cart
+6. Make much more Optimaized Code. 
 
 <a name="my-learning"/>
 
@@ -81,11 +91,12 @@
 * Impact of colors in websites
 * How to structure layout 
 
+
 <a name="about-me"/>
 
 ## Hi, I'm Jeet! 👋
 ### About Me
-* Hey learners, I'm Jeet Bhalani, [Neog Camp](https://neog.camp/) '2022 student.
+* Hey learners, I'm Jeet Bhalani, [Neog Camp](https://neog.camp/) '2022 NeoGrammer.
 ### Social 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jeetbhalani-portfolio.netlify.app/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeetbhalani/)
@@ -94,4 +105,4 @@
 <a name="acknowledgement"/>
 
 ## 🎗️ Acknowledgement
-* I want to tell thanks to my mentor [Tanay Pratap](https://twitter.com/tanaypratap), Thank you for inspiring, caring, listening, guiding and shaping our future.
+* I wanna thanks to my mentor [Tanay Pratap](https://twitter.com/tanaypratap) & his team for inspiring, guiding and shaping our future.
