@@ -87,7 +87,7 @@ button.link-no-style {
 Toggle Button
 */
 .mode{
-    color: var(--card-border-color);
+    color: black;
 }
 .toggle-btn{
     display: inline-block;
