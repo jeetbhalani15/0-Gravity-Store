@@ -1,12 +1,5 @@
 @import "/defalut.css";
-.logo-img{
-    width: 85%;
-}
-a{
-    text-decoration: none;
-    color: azure;
 
-}
 li{
     list-style: none;
     color: var(--text-color);
@@ -33,7 +26,7 @@ li{
     margin-right: -2rem;
 }
 .bg-color{
-    color: var(--text-color);
+    color: var(--white-color-txt);
     font-size: 1.4rem;
     font-family: monospace;
     font-weight: 600;
@@ -90,6 +83,51 @@ button.link-no-style {
 .icon{
     font-size: 1.4rem;
 }
+/* 
+Toggle Button
+*/
+.mode{
+    color: var(--card-border-color);
+}
+.toggle-btn{
+    display: inline-block;
+    border: none;
+    margin-left: -1.5rem;
+    color: var(--text-color);
+    outline: none;
+    cursor: pointer;
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.toggle-btn i {
+        position: absolute;
+        line-height: -10px;
+        top: 32%;
+        right: 1.6%;
+    }
+    .toggle-btn i:last-child{
+        display: none;
+    }
+    .toggle-btn:hover{
+        background-color: var(--primary-hover);
+    }
+    .big-wrapper.light .toggle-btn i:last-child{
+        display: none;
+    }
+    .big-wrapper.light .toggle-btn i:first-child{
+        display: block;
+    }
+    .big-wrapper.dark .toggle-btn i:last-child{
+        display: block;
+    }
+    .big-wrapper.dark .toggle-btn i:first-child{
+        display: none;
+    }
+
 .flex{
     display: flex;
     align-items: center;
@@ -101,7 +139,7 @@ button.link-no-style {
     justify-content: center;
     align-items: center;
     margin-right: 3rem;
-    color: var(--text-color);
+    color: var(--white-color-txt);
     font-size: 1.4rem;
 }
 .links ul{
@@ -111,7 +149,7 @@ button.link-no-style {
     
 }
 .links a{
-    color: var(--text-color);
+    color: var(--white-color-txt);
     margin-left: 4.5rem;
     display: inline-block;
     font-size: 1.4rem;
@@ -140,11 +178,11 @@ landing logo
     letter-spacing: 1rem;
 }
 .hero-img{
-    margin-top: -10rem;
-    width: 100%;
+    margin-top: -15rem;
+    width: 108%;
     height: 64rem;
     opacity: 0.8;
-    margin-left: -1rem;
+    margin-left: -6rem;
 }
 .hero-title{
     font-size: 3rem;
@@ -211,11 +249,29 @@ main{
     justify-content: center;
     align-items: center;
 }
+.card-body{
+    color: var(--text-color);
+    font-weight: 600;
+}
+.price{
+    color: var(--text-color);
+}
+.line {
+    text-decoration: line-through;
+    opacity: 1;
+    font-weight: 600;
+}
 .card-border{
     border-radius: 14px;
     padding: 2rem;
     margin-left: 1rem;
     max-width: 24%;
+}
+.card-body{
+    color: var(--text-color);
+}
+.price{
+    color: var(--text-color);
 }
 .card-btn{
     margin-top: 1rem;
@@ -223,6 +279,7 @@ main{
     background-color: var(--primary-color);
     color: var(--text-color);
     border-radius: 8px;
+    border: none;
 }
 .card-img{
     position: relative;

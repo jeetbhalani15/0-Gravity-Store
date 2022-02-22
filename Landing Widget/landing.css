@@ -211,6 +211,18 @@ main{
     justify-content: center;
     align-items: center;
 }
+.card-body{
+    color: var(--text-color);
+    font-weight: 600;
+}
+.price{
+    color: var(--text-color);
+}
+.line {
+    text-decoration: line-through;
+    opacity: 1;
+    font-weight: 600;
+}
 .card-border{
     border-radius: 14px;
     padding: 2rem;
@@ -222,6 +234,7 @@ main{
     padding: 8px 30px;
     background: var(--primary-color);
     border-radius: 8px;
+    border: none;
 }
 .card-img{
     position: relative;

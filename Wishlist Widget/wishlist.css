@@ -70,7 +70,7 @@ button.link-no-style {
     display: flex;
     font-size: 13px;
     flex-flow: row-reverse;
-    color: antiquewhite;
+    color: var(--primary-color);
 }
 .search-bar{
     display: flex;
@@ -90,6 +90,48 @@ button.link-no-style {
 .icon{
     font-size: 1.4rem;
 }
+.mode{
+    color: black;
+}
+.toggle-btn{
+    display: inline-block;
+    border: none;
+    margin-left: -1.5rem;
+    color: var(--text-color);
+    outline: none;
+    cursor: pointer;
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.toggle-btn i {
+        position: absolute;
+        line-height: -10px;
+        top: 32%;
+        right: 1.2%;
+    }
+    .toggle-btn i:last-child{
+        display: none;
+    }
+    .toggle-btn:hover{
+        background-color: var(--primary-hover);
+    }
+    .big-wrapper.light .toggle-btn i:last-child{
+        display: none;
+    }
+    .big-wrapper.light .toggle-btn i:first-child{
+        display: block;
+    }
+    .big-wrapper.dark .toggle-btn i:last-child{
+        display: block;
+    }
+    .big-wrapper.dark .toggle-btn i:first-child{
+        display: none;
+    }
+
 .flex{
     display: flex;
     align-items: center;
@@ -131,6 +173,18 @@ main{
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
+}
+.card-body{
+    color: var(--text-color);
+    font-weight: 600;
+}
+.price{
+    color: var(--text-color);
+}
+.line {
+    text-decoration: line-through;
+    opacity: 1;
+    font-weight: 600;
 }
 .card-border{
     border: 4px solid var(--card-border-color);

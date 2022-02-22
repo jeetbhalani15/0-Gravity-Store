@@ -17,7 +17,7 @@ li{
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -70,7 +70,7 @@ button.link-no-style {
     display: flex;
     font-size: 13px;
     flex-flow: row-reverse;
-    color: var(--search-bar-color);
+    color: var(--primary-color);
 }
 .search-bar{
     display: flex;
@@ -123,6 +123,52 @@ button.link-no-style {
 .nav-action-btn{
     margin-left: 2rem;
 }
+
+/* 
+Toggle Button
+*/
+.mode{
+    color: black;
+}
+.toggle-btn{
+    display: inline-block;
+    border: none;
+    margin-left: -1.5rem;
+    color: var(--text-color);
+    outline: none;
+    cursor: pointer;
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.toggle-btn i {
+        position: absolute;
+        line-height: -10px;
+        top: 32%;
+        right: 1.6%;
+    }
+    .toggle-btn i:last-child{
+        display: none;
+    }
+    .toggle-btn:hover{
+        background-color: var(--primary-hover);
+    }
+    .big-wrapper.light .toggle-btn i:last-child{
+        display: none;
+    }
+    .big-wrapper.light .toggle-btn i:first-child{
+        display: block;
+    }
+    .big-wrapper.dark .toggle-btn i:last-child{
+        display: block;
+    }
+    .big-wrapper.dark .toggle-btn i:first-child{
+        display: none;
+    }
+
 /* 
 fliter css
 */
@@ -143,6 +189,9 @@ fliter css
     margin-left: 1rem;
     margin-top: 1rem;
 }
+/* .slider-border {
+    box-shadow: 0px;
+} */
 .sidebar-list{
     display: flex;
     flex-direction: column;
@@ -214,6 +263,18 @@ a{
 /* 
 cards css
 */
+.card-body{
+    color: var(--text-color);
+    font-weight: 600;
+}
+.price{
+    color: var(--text-color);
+}
+.line {
+    text-decoration: line-through;
+    opacity: 1;
+    font-weight: 600;
+}
 .card-border{
     border: 4px solid var(--card-border-color);
     border-radius: 14px;
@@ -225,8 +286,9 @@ cards css
     margin-top: 1rem;
     padding: 8px 30px;
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: white;
     border-radius: 8px;
+    border: none;
 }
 .card-img{
     position: relative;
